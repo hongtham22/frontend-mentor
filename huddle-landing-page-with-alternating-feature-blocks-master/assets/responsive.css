@@ -1,0 +1,100 @@
+@media (max-width: 376px) {
+    .header{
+    padding: 24px 16px;
+
+    }
+
+    .logo-huddle {
+        max-width: 104px;
+    }
+
+    .try-btn {
+        font-size: 10px;
+        padding: 5px 24px;
+
+    }
+
+    .banner {
+
+        flex-direction: column;
+    
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .right-banner img{
+        max-width: 296px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .normal-content {
+        padding: 20px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+
+    .left-content  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-content img {
+        max-width: 256px;
+        width: 100%;
+    }
+
+
+    .sub-footer {
+        top: -132px;
+        max-width: 352px;
+        height: 176px;
+
+    
+    }
+
+    .sub-footer h1{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .sub-footer-btn {
+        border-radius: 20px;
+        padding: 13px 52px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .footer{
+
+        padding: 40px 20px;
+    
+    
+    }
+    
+
+    .footer-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .list-last .item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .list-last .item:last-child{
+        margin-top: 50px;
+     }
+    
+}

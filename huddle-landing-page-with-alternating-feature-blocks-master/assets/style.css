@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #00252E;
+}
+
+
+.header {
+    background: url('./banner-bg.png');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    padding: 48px 80px;
+
+}
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+.logo-huddle {
+    max-width: 200px;
+    width: 100%;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #00252E;
+}
+    
+.try-btn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 13px 67px;
+    border-radius: 24px;
+    box-shadow: 0 3px 11px rgba(0,0,0,0.0954);
+    cursor: pointer;
+}
+
+.try-btn:hover{
+    color: #808E9A;
+}
+
+.banner {
+
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.left-banner {
+    max-width: 536px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.left-banner h1{
+    margin-bottom: 40px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.left-banner p{
+    margin-bottom: 30px;
+}
+
+.right-banner img{
+    max-width: 680px;
+    width: 100%;
+}
+
+/* .content-banner {
+
+} */
+
+.get-started-btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 550;
+    background-color: #ff52c1;
+    padding: 20px 72px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.get-started-btn:hover{
+    background-color: #FF9ADB;
+}
+
+.main-content {
+
+    padding: 160px 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */ 
+    /* căn giữa theo chiều ngang */
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 140px;
+}
+
+.normal-content {
+    border-radius: 16px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.07);
+    padding-left: 130px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 170px;
+
+}
+
+.left-content  {
+    /* max-width: 488px; */
+    /* width: 100%; */
+}
+
+.left-content p{
+    color:#808E9A;
+    line-height: 27px;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+
+.right-content {
+
+}
+
+.abnormal-content {
+    flex-direction: row-reverse;
+    /* align-items: center; */
+
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    background-color: #00252E;
+    padding: 60px 120px;
+
+
+}
+
+.sub-footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -184px;
+    background-color: #fff;
+    max-width: 800px;
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.0711);
+
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.sub-footer h1{
+    font-size: 32px;
+    line-height: 60px;
+    margin-bottom: 40px;
+
+}
+
+.sub-footer-btn {
+    border-radius: 40px;
+    padding: 29px 132px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-footer {
+    color: #979797;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-huddle-last{
+    margin-top: 100px;
+    max-width: 152px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.footer-list {
+    display: flex;
+    color: #979797;
+    gap: 130px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+li{
+    list-style: none;
+}
+.item {
+    display: flex;
+}
+
+.item a{
+    color: #979797;
+
+}
+
+.item img{
+    max-width: 24px;
+    width: 100%;
+    max-height: 24px;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+.list:first-child{
+    max-width: 379px;
+    width: 100%;
+ }
+
+ .list:last-child .item img{
+    max-width: 32px;
+    width: 100%;
+    max-height: 32px;
+    height: 100%;
+ }
+
+ .list-last .item:last-child{
+    margin-top: 100px;
+ }
